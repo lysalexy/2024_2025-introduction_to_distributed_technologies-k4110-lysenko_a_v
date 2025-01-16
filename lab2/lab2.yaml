@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: lab2-deployment
+  name: lab2
 spec:
   replicas: 2
   selector:
@@ -14,9 +14,9 @@ spec:
     spec:
       containers:
         - name: lab2
-          image: ifilyaninitmo/itdt-contained-frontend
+          image: ifilyaninitmo/itdt-contained-frontend:master
           ports:
-            - containerPort: 8080
+            - containerPort: 3000
           env:
             - name: REACT_APP_USERNAME
               value: "Lysenko Aleksandra Vladimirovna"
