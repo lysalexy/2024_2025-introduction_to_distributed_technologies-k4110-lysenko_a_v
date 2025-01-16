@@ -88,7 +88,7 @@ minikube kubectl -- expose pod vault  --namespace=first --type=NodePort --port=8
 
 Существующий под был удален и вместо него был создан новый с неймспейсом default
 ```bash
-delete pod vault -n first --grace-period=0 --force
+kubectl delete pod vault -n first --grace-period=0 --force
 ```
 ![delete pod in wrong namespace and deploy.png](pictures%2Fdelete%20pod%20in%20wrong%20namespace%20and%20deploy.png)
 
