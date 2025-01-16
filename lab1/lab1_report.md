@@ -71,16 +71,25 @@ docker pull hashicorp/vault
 
 - После этого вам необходимо будет создать сервис для доступа к этому контейнеру, самый просто вариант - это выполнить команду:
 
-Для пода был маписан манифест, приложенный к тексту отчета. Для этого необходимо перейти в директорию хранения манифеста и указать неймспейс при необходимости
+Для пода был написан манифест, приложенный к тексту отчета. Для этого необходимо перейти в директорию хранения манифеста и указать неймспейс при необходимости
+```bash
+kubectl apply -f myFirst.yaml
+```
 ![go to dir with manifest+create namespace.png](pictures%2Fgo%20to%20dir%20with%20manifest%2Bcreate%20namespace.png)
 
 Под был запущен в указанном неймспейсе
+```bash
+minikube kubectl -- expose pod vault  --namespace=first --type=NodePort --port=8200
+```
 ![pod status in namespace.png](pictures%2Fpod%20status%20in%20namespace.png)
 
 Далее была предпринята попытка изменения неймспейса пода, преведшая в ошибке
 ![change namespace in pod and get error.png](pictures%2Fchange%20namespace%20in%20pod%20and%20get%20error.png)
 
 Существующий под был удален и вместо него был создан новый с неймспейсом default
+```bash
+delete pod vault -n first --grace-period=0 --force
+```
 ![delete pod in wrong namespace and deploy.png](pictures%2Fdelete%20pod%20in%20wrong%20namespace%20and%20deploy.png)
 
 > Эта команда будет работать только если ваш "под" имеет имя `vault`
