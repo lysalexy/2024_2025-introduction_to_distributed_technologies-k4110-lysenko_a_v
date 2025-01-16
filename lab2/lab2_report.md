@@ -48,7 +48,7 @@ kubectl get pods
 
 Запускаем сервис
 ```bash
-minikube kubectl -- expose deployment/lab2-deployment
+kubectl -apply -f service_lab2.yaml
 ```
 ![deployment.png](pictures%2Fdeployment.png)
 
@@ -58,12 +58,31 @@ kubectl get services
 ```
 ![kubectl get services.png](pictures%2Fkubectl%20get%20services.png)
 
+Можем посмотреть описание сервиса
+![describe_service.png](pictures%2Fdescribe_service.png)
+
+Можем посмотреть url сервиса
+![service_url.png](pictures%2Fservice_url.png)
+
+
+!!! Точкой стыковки сервиса и подов являются поля service.spec.selector.app и deployment.spec.template.metadata.labels.app, так что их значения должны совпадать
+
 - Запустить в `minikube` режим проброса портов и подключитесь к вашим контейнерам через веб браузер.
 ```bash
-minikube kubectl -- port-forward service/lab2-deployment 8100:8080
+minikube kubectl -- port-forward service/lab2 3000:3000
 ```
-
+![port-forward.png](pictures%2Fport-forward.png)
 
 - Проверьте на странице в веб браузере переменные `REACT_APP_USERNAME`, `REACT_APP_COMPANY_NAME` и `Container name`. Изменяются ли они? Если да то почему?
+![frontend_view.png](pictures%2Ffrontend_view.png)
 
 - Проверьте логи контейнеров, приложите логи в отчёт.
+```bash
+>kubectl logs lab2-deployment-7d5b675df8-8ftkw
+```
+![pod_log.png](pictures%2Fpod_log.png)
+```bash
+>kubectl describe pod lab2-deployment-7d5b675df8-8ftkw
+```
+![describe_pod_1.png](pictures%2Fdescribe_pod_1.png)
+![describe_pod_2.png](pictures%2Fdescribe_pod_2.png)
