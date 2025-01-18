@@ -48,7 +48,7 @@ kubectl get pods
 
 Запускаем сервис
 ```bash
-kubectl -apply -f service_lab2.yaml
+kubectl apply -f service_lab2.yaml
 ```
 ![deployment.png](pictures%2Fdeployment.png)
 
@@ -75,7 +75,7 @@ minikube kubectl -- port-forward service/lab2 3000:3000
 
 - Проверьте на странице в веб браузере переменные `REACT_APP_USERNAME`, `REACT_APP_COMPANY_NAME` и `Container name`. Изменяются ли они? Если да то почему?
 ![frontend_view.png](pictures%2Ffrontend_view.png)
-
+  Services and pods are matched matching service's spec.selector.app to pod's app label.
 - Проверьте логи контейнеров, приложите логи в отчёт.
 ```bash
 >kubectl logs lab2-deployment-7d5b675df8-8ftkw
