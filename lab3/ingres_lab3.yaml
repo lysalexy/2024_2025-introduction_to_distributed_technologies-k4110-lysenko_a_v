@@ -1,0 +1,33 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: lab3
+  annotations:
+    nginx.ingress.kubernetes.io/proxy-ssl-verify: 'on'
+spec:
+  tls:
+    - hosts:
+        - lysalexy
+        - localhost
+      secretName: lab3
+  rules:
+    - host : lysalexy
+      http:
+        paths:
+          - path: /lab3
+            pathType: Prefix
+            backend:
+              service:
+                name: lab3
+                port:
+                  number: 3000
+    - host: localhost
+      http:
+        paths:
+          - path: /lab3
+            pathType: Prefix
+            backend:
+              service:
+                name: lab3
+                port:
+                  number: 3000

@@ -16,4 +16,7 @@ spec:
         - name: lab3
           image: ifilyaninitmo/itdt-contained-frontend:master
           ports:
-            - containerPort: 5000
+            - containerPort: 3000
+          envFrom:
+            - configMapRef:
+                name: lab3
