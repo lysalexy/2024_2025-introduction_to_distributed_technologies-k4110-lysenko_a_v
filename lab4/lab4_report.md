@@ -131,12 +131,33 @@ kubectl get events --sort-by=".metadata.managedFields[0].time"
 kubectl apply -f service_lab4.yaml
 ```
 ![service.png](pictures%2Fservice.png)
+
+```bash
+kubectl get all,cm,secret,ing -A
+```
+![all_data.png](pictures%2Fall_data.png)
+![all_data_2.png](pictures%2Fall_data_2.png)
+
+```bash
+minikube service list -p multinode-demo
+```
+![service list in claster.png](pictures%2Fservice%20list%20in%20claster.png)
+
+```bash
+minikube service lab4 -p multinode-demo
+```
+![view url of service from claster.png](pictures%2Fview%20url%20of%20service%20from%20claster.png)
+
+![frontend.png](pictures%2Ffrontend.png)
+- 
 - Запустить в `minikube` режим проброса портов и подключитесь к вашим контейнерам через веб браузер.
 
 ```bash
 minikube kubectl -- port-forward service/lab4 3000:3000
 ```
 
-- Проверьте на странице в веб браузере переменные `Container name` и `Container IP`. Изменяются ли они? Если да то почему?
-
-- Используя `kubectl exec` зайдите в любой "под" и попробуйте попинговать "поды" используя `FQDN` имя соседенего "пода", результаты пингов необходимо приложить к отчету. 
+- Используя `kubectl exec` зайдите в любой "под" и попробуйте попинговать "поды" используя `FQDN` имя соседенего "пода", результаты пингов необходимо приложить к отчету.
+```bash 
+kubectl exec pod/lab4-867f9789b-tt6k6 -- ping 10.244.239.7
+```
+![ping another pod.png](pictures%2Fping%20another%20pod.png)

@@ -13,7 +13,7 @@ spec:
         app: lab4
     spec:
       containers:
-        - name: lab2
+        - name: lab4
           image: ifilyaninitmo/itdt-contained-frontend:master
           ports:
             - containerPort: 3000
