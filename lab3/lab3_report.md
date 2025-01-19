@@ -60,7 +60,7 @@ openssl genrsa -out ca_new.key 2048
 ```bash
 openssl req -x509 -key ca_new.key  -out ca_new.crt 
 ```
-![openssl_req.png](pictures%2Fopenssl_req.png)
+![openssl req.png](pictures%2Fopenssl%20req.png)
 
 ```bash
 openssl x509 -in ca_new.crt -out lab3.pem -outform PEM
@@ -68,7 +68,7 @@ openssl x509 -in ca_new.crt -out lab3.pem -outform PEM
 ![generate pem.png](pictures%2Fgenerate%20pem.png)
 
 Посмотрим сертификаты, ранее находившиеся в minikube
-![сертификат сервера.png](pictures%2F%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B0.png)
+![see certs.png](pictures%2Fsee%20certs.png)
 
 Импортируем созданный сертификат в minikube
 ```bash
