@@ -88,7 +88,6 @@ minikube addons configure ingress
 ```
 ![add_on_ingress.png](pictures%2Fadd_on_ingress.png)
 
-
 ```bash
 kubectl -n ingress-nginx get deployment ingress-nginx-controller -o yaml | findstr kube-system
 ```

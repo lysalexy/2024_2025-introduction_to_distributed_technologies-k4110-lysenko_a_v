@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: lab4
+data:
+  # property-like keys; each key maps to a simple value
+  REACT_APP_USERNAME: "Lysenko Aleksandra Vladimirovna"
+  REACT_APP_COMPANY_NAME: "ITMO"

@@ -1,0 +1,18 @@
+apiVersion: crd.projectcalico.org/v1
+kind: NetworkPolicy
+metadata:
+  name: lab4
+spec:
+  selector:
+    (rack == "0")||(rack == "1")
+  types:
+    - Ingress
+  ingress:
+    - action: Allow
+      protocol: TCP
+      source:
+          selector:
+           (rack == "0")||( rack == "1")
+      destination:
+          ports:
+            - 3000
