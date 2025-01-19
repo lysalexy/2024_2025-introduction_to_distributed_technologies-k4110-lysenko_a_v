@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="57f20152-b597-4056-9513-fe836585943c" name="Changes" comment="lab4: add missed files v.2" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lab2" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lysalexy&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:lysalexy/2024_2025-introduction_to_distributed_technologies-k4110-lysenko_a_v.git&quot;,
+    &quot;accountId&quot;: &quot;755745a2-bbac-409d-a1cb-b65543bb5cc7&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2rU4VO9VP7KYKqGzBrHhpwxgcMk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/orang/Desktop/2024_2025-introduction_to_distributed_technologies-k4110-lysenko_a_v/lab3&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\orang\Desktop\2024_2025-introduction_to_distributed_technologies-k4110-lysenko_a_v\lab3" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\orang\Desktop\2024_2025-introduction_to_distributed_technologies-k4110-lysenko_a_v\lab1" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="57f20152-b597-4056-9513-fe836585943c" name="Changes" comment="" />
+      <created>1736600343776</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736600343776</updated>
+    </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <option name="closed" value="true" />
+      <created>1736600677993</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736600677993</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first lab implementation+pictures">
+      <option name="closed" value="true" />
+      <created>1736957435389</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736957435389</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add structure picture">
+      <option name="closed" value="true" />
+      <created>1736957786498</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736957786498</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add missed pictures">
+      <option name="closed" value="true" />
+      <created>1737020299628</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737020299628</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add missed commands from images to report">
+      <option name="closed" value="true" />
+      <created>1737020842981</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737020842981</updated>
+    </task>
+    <task id="LOCAL-00006" summary="lab2: commit">
+      <option name="closed" value="true" />
+      <created>1737021067884</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1737021067884</updated>
+    </task>
+    <task id="LOCAL-00007" summary="lab2: working versions of manifests">
+      <option name="closed" value="true" />
+      <created>1737031141177</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1737031141177</updated>
+    </task>
+    <task id="LOCAL-00008" summary="lab2: implement lab2">
+      <option name="closed" value="true" />
+      <created>1737034382203</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1737034382203</updated>
+    </task>
+    <task id="LOCAL-00009" summary="lab3: 7-th hour of implementing lab">
+      <option name="closed" value="true" />
+      <created>1737226914039</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1737226914039</updated>
+    </task>
+    <task id="LOCAL-00010" summary="lab3: 9-th hour of implementing lab">
+      <option name="closed" value="true" />
+      <created>1737237908856</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1737237908856</updated>
+    </task>
+    <task id="LOCAL-00011" summary="lab3: add missed files">
+      <option name="closed" value="true" />
+      <created>1737238081948</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1737238081948</updated>
+    </task>
+    <task id="LOCAL-00012" summary="lab3: add missed files">
+      <option name="closed" value="true" />
+      <created>1737238503518</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1737238503518</updated>
+    </task>
+    <task id="LOCAL-00013" summary="lab4: add missed files">
+      <option name="closed" value="true" />
+      <created>1737290904795</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1737290904795</updated>
+    </task>
+    <task id="LOCAL-00014" summary="lab4: add missed files">
+      <option name="closed" value="true" />
+      <created>1737290916113</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1737290916113</updated>
+    </task>
+    <task id="LOCAL-00015" summary="lab4: add missed files">
+      <option name="closed" value="true" />
+      <created>1737290920279</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1737290920279</updated>
+    </task>
+    <task id="LOCAL-00016" summary="lab4: add missed files">
+      <option name="closed" value="true" />
+      <created>1737290922790</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1737290922790</updated>
+    </task>
+    <task id="LOCAL-00017" summary="lab4: add missed files">
+      <option name="closed" value="true" />
+      <created>1737290929589</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1737290929589</updated>
+    </task>
+    <task id="LOCAL-00018" summary="lab4: add missed files v.2">
+      <option name="closed" value="true" />
+      <created>1737290938110</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1737290938110</updated>
+    </task>
+    <task id="LOCAL-00019" summary="lab4: add missed files v.2">
+      <option name="closed" value="true" />
+      <created>1737290955394</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1737290955394</updated>
+    </task>
+    <task id="LOCAL-00020" summary="lab4: add missed files v.2">
+      <option name="closed" value="true" />
+      <created>1737290974044</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1737290974044</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <MESSAGE value="first lab implementation+pictures" />
+    <MESSAGE value="add structure picture" />
+    <MESSAGE value="add missed pictures" />
+    <MESSAGE value="add missed commands from images to report" />
+    <MESSAGE value="lab2: commit" />
+    <MESSAGE value="lab2: working versions of manifests" />
+    <MESSAGE value="lab2: implement lab2" />
+    <MESSAGE value="lab3: 7-th hour of implementing lab" />
+    <MESSAGE value="lab3: 9-th hour of implementing lab" />
+    <MESSAGE value="lab3: add missed files" />
+    <MESSAGE value="lab4: add missed files" />
+    <MESSAGE value="lab4: add missed files v.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab4: add missed files v.2" />
+  </component>
+</project>
